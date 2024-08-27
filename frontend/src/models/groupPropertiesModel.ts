@@ -7,7 +7,7 @@ import { teamLogic } from 'scenes/teamLogic'
 import { GroupTypeProperties, PersonProperty } from '~/types'
 
 import type { groupPropertiesModelType } from './groupPropertiesModelType'
-
+//test
 export const groupPropertiesModel = kea<groupPropertiesModelType>([
     path(['models', 'groupPropertiesModel']),
     connect({
